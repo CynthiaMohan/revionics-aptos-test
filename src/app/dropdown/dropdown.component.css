@@ -1,6 +1,6 @@
 .dropdown button{
-    width: 20rem;
-    height: 2rem;
+    width: 50rem;
+    height: 3rem;
     text-align: left;
     background-color: white;
     border: 1px solid gray;
@@ -17,7 +17,7 @@
 
 .dropdown_menu ul{
     border: 1px solid gray;
-    width: 20rem;
+    width: 49rem;
     margin: 0;
     padding: 5px;
     margin-top: 1rem;
@@ -42,10 +42,11 @@
     list-style: none;
     height: 2rem;
 }
+.dropdown_menu ul li:hover{
+    background-color:#e6f6fc;
+}
 .dropdown-item{
     text-decoration:none;
     color: black;
-}
-.dropdown-item:hover{
-    background-color: #8888887e;
+    height: 1.5rem;
 }
