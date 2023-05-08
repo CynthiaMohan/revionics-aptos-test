@@ -1,16 +1,11 @@
 <div class="dropdown">
-    <button class="" id="drop_down_btn" type="button">Select an option</button>
+    <button class="" id="drop_down_btn" type="button" (click)="dropdownOpen()">Select an option</button>
     <span class="downarrow"><i class="fa-sharp fa-solid fa-angle-down"></i></span>
-    <div class="dropdown_menu">
+    <div class="dropdown_menu" aria-labelledby="dropdownMenuButton" *ngIf="dropdownContent">
         <ul>
-            <li class="dropdon_item">Option 1</li>
-            <li class="dropdon_item">Option 2</li>
-            <li class="dropdon_item">Option 3</li>
-            <li class="dropdon_item">Option 4</li>
-            <li class="dropdon_item">Option 5</li>
-            <li class="dropdon_item">Option 6</li>
-            <li class="dropdon_item">Option 7</li>
-            <li class="dropdon_item">Option 8</li>
+            <li class="dropdown-list" *ngFor="let option of options">
+                <a class="dropdown-item" href="#" (click)="onOptionSelected(option)">{{option}}</a>
+            </li>
         </ul>
     </div>
 </div>

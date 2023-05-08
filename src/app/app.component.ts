@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'revionics_aptos_test';
+  selectedOption:string='Select an Option';
+
+
+  onChange(selectedvalue:string){
+    this.selectedOption=selectedvalue;
+  }
 }
