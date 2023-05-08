@@ -11,7 +11,7 @@
 .downarrow{
     margin-left: -2rem;
       color: #555;
-      font-size: 3vh;
+      font-size: 4vh;
 
 }
 .dropdown_menu{
@@ -56,7 +56,23 @@
     font-size: 1.25rem;
     
 }
-
+.dd_input{
+    width: 75vw;
+    height: 3rem;
+    text-align: left;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #888;
+    margin-top: 5px;
+}
+#download{
+    width: 5rem;
+}
+#download i{
+    font-size: 1.5rem;
+}
 @media screen and (min-height:200px) {
     
 }
