@@ -1,5 +1,5 @@
 .dropdown button{
-    width: 50rem;
+    width: 80vw;
     height: 3rem;
     text-align: left;
     background-color: white;
@@ -11,13 +11,15 @@
 .downarrow{
     margin-left: -2rem;
       color: #555;
-      font-size: 2rem;
+      font-size: 3vh;
 
 }
-
+.dropdown_menu{
+    width: 80vw;
+}
 .dropdown_menu ul{
     border: 1px solid gray;
-    width: 49rem;
+    /* width: 120vh; */
     margin: 0;
     padding: 5px;
     margin-top: 1rem;
@@ -41,6 +43,8 @@
 .dropdown_menu ul li{
     list-style: none;
     height: 2rem;
+    padding: 10px 10px 0 0;
+    
 }
 .dropdown_menu ul li:hover{
     background-color:#e6f6fc;
@@ -49,4 +53,10 @@
     text-decoration:none;
     color: black;
     height: 1.5rem;
+    font-size: 1.25rem;
+    
+}
+
+@media screen and (min-height:200px) {
+    
 }
