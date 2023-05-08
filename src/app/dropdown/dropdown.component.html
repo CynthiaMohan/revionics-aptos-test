@@ -1,5 +1,6 @@
 <div class="dropdown">
-    <button class="" id="drop_down_btn" type="button" (click)="dropdownOpen()">Select an option</button>
+    <button class="" id="drop_down_btn" type="button" (click)="dropdownOpen()">
+        {{selectedOption||'Select an option'}}</button>
     <span class="downarrow"><i class="fa-sharp fa-solid fa-angle-down"></i></span>
     <div class="dropdown_menu" aria-labelledby="dropdownMenuButton" *ngIf="dropdownContent">
         <ul>

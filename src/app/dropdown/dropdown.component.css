@@ -44,3 +44,10 @@
     list-style: none;
     height: 2rem;
 }
+.dropdown-item{
+    text-decoration:none;
+    color: black;
+}
+.dropdown-item:hover{
+    background-color: #8888887e;
+}
