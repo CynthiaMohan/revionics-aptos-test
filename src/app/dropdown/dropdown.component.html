@@ -1,7 +1,7 @@
 <div class="dropdown">
-    <button class="" id="drop_down_btn" type="button" (click)="dropdownOpen()">
+    <button class="" id="dropdown_btn" type="button" (click)="dropdownOpen()">
         {{selectedOption||'Select an option'}}</button>
-    <span class="downarrow"><i class="fa-sharp fa-solid fa-angle-down"></i></span>
+    <div id="arrow" class="downarrow fa fa-angle-down"></div>
     <div class="dropdown_menu" aria-labelledby="dropdownMenuButton" *ngIf="dropdownContent">
         <ul>
             <li class="dropdown-list" *ngFor="let option of options">
