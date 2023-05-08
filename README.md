@@ -1,6 +1,34 @@
-# RevionicsAptosTest
+# Revionics Aptos Dev Test
+
+## Description
+
+Create a custom dropdown menu component based on the following design.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+
+## Mock-up
+
+![Mock up image](/assets/UI%20Developer%20Test.png)
+
+## Requirements
+
+- Do your Best to create a dropdown that looks and functions like the one specified above
+- Dropdown must have a binding that will allow you to change the selected option
+- Dropdown must have a binding that allows you to change the placeholder label in the default (state when nothingh is selected)
+- Dropdown must have a binding that allows you to change the options available in the dropdown menu list.
+- Dropdown must emit an event when an option is selected that contains an identifier for the selected value
+- If there are more than seven items in the menu , a scrollbar should be shown that allows them to scroll through the options
+
+### Bonus (Nice to have but not required)
+
+- Set up the dropdown so that it has a two-way binding instead of a regular binding. If the dropdown value is changed, the dropdown should reflect the change,but if the user selects something in the dropdown, the value variable should also change automatically.
+
+## Technologies Used
+
+- HTML
+- CSS
+- TS
+- Angular
 
 ## Development server
 
