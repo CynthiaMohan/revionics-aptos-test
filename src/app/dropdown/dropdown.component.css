@@ -28,9 +28,18 @@
     overflow-y: auto;
 }
 ::-webkit-scrollbar{
-    width: 1rem;
+    width: 0.5rem;
 }
-::we
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+    border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #555;
+}
 .dropdown_menu ul li{
     list-style: none;
     height: 2rem;
